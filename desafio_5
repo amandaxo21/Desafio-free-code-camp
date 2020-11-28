@@ -1,0 +1,49 @@
+<html>
+ <head>
+ </head>
+<body>
+  <nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+  <section id="welcome-section" class="welcome-section">
+  <h1>Hey I am Mimic</h1>
+  <p>a web developer</p>
+</section>
+  <section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="projects-grid">
+    <a href="https://codepen.io/amanda_xo/pen/zYByrYM" target="_blank" class="project project-tile">
+      <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">            
+    <p class="project-title">        
+        Tribute Page        
+      </p>
+  </section>            
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <footer>
+      <section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    <p>How do you take your coffee?</p>
+  </div>
+  <div class="contact-links">
+    <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a> 
+    <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="mailto: ac2583414@gmial.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+    <a href="tel:341-1623548" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+  </div>
+</section>
+    </footer>
+  </body>
+</html>
