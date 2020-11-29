@@ -1,0 +1,74 @@
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #E4C0E8 0%, #E4C0E8 100%);
+}
+
+h1, h2, p {
+  font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #8B0C99;
+    display: flex;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #CA5DD6;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+ul {
+    list-style: none;
+}
+li {  
+  float: left;
+  text-align: center;
+  width: 10em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  
+}
+project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+.contact-links{
+  
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+  font-family: 'Raleway', sans-serif;
+}
+.project-title {
+    font-size: 2rem;
+    padding: 0rem 0.5rem;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img {
+   max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
